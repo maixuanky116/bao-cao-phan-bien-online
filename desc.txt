@@ -1,0 +1,30 @@
+﻿
+Lưu ý: Những phần trình bày của bất cứ người nào cũng phải được công khai cho tất cả các bên (mọi người phải nghe, xem được lẫn nhau)
+Admin
+Quản lý (tạo mới, sửa, xoá, khoá, cấp quyền: gv, sv) các tài khoản. Hỗ trợ tạo một tập tài khoản từ một file danh sách. File danh sách chứa 3 cột: tên, mã sv/gv, điện thoại. Phần mềm tự động tạo password dựa trên mã sv/gv.
+
+Sinh viên
+Nộp bài. Giao diện nộp bài phải chứa các trường nhập liệu: Tên đề tài, Họ tên, MSSV, GVHD, Tóm tắt đề tài, Upload file thuyết minh (file báo cáo) và các file liên quan khác.
+Xem lịch báo cáo. Giao diện cần thể hiện các thông tin: ngày giờ báo cáo, thời gian tối đa cho báo cáo, tên từng thành viên hội đồng, vai trò của từng thành viên (chủ tịch, phản biện, uỷ viên).
+Báo cáo online. Giao diện hiển thị video các thành viên trong hội đồng (được chuyển từ webcam của thành viên hội đồng). Cho phép nghe các thành viên hội đồng hỏi. Trả lời và phần mềm chuyển tải âm thanh đến các thành viên hội đồng.
+Xem kết quả báo cáo. Màn hình hiển thị: tên thành viên hội đồng, điểm của thành viên, nhận xét của thành viên, xếp loại của thành viên, điểm trung bình.
+
+GV
+-Xem được danh sách các đề tài do trưởng khoa hoặc trưởng bộ môn phân công phản biện
+-Xem được danh sách các đề tài do trưởng khoa hoặc trưởng bộ môn phân công làm uỷ viên hội đồng.
+-Hỗ trợ điền thông tin vào form nhân xét của phản biện (Họ và tên người phản biện, tên đề tài, nhận xét về đề tài đó, có đồng ý cho báo cáo hay không, đánh giá khá giỏi TB)
+-Xem được chi tiết từng hội đồng mà mình tham gia (Họ tên SV thực hiện, tên đề tài, GVHD, báo cáo lúc mấy giờ, thời gian báo cáo tối đa)
+- Xem chi tiết về đề tài mà mình sẽ ngồi hội đồng: Họ tên SV thực hiện, tên đề tài, GVHD, báo cáo lúc mấy giờ, thời gian báo cáo tối đa, bản tóm tắt của đề tài đó, file thuyết minh báo cáo.
+- Xem ds các hội đồng do mình tham gia.
+- Xem thông tin chi tiết về một hội đồng nào đó trong ds hội đồng do gv tham gia. Màn hình chi tiết cần thể hiện các thông tin: tên đề tài, sv thực hiện, gv hướng dẫn, tên & vai trò của từng thanh viên trong hội đồng, thời điểm báo cáo, thời lượng báo cáo.
+-Xem ds các đề tài. Màn hình xem danh sách đề tài (Tên đề tài, thời điểm báo cáo, vai trò của mình (giảng viên đó)).
+-Hỗ trợ giảng viên nghe, xem và đặt câu hỏi trong quá trình báo cáo, và sau đó có chỗ để nhập điểm, nhận xét lúc nghe xong báo cáo.
+-Đối với những giảng viên là chủ tịch hội đồng (vẫn là giảng viên) có thể quyết định chấm dứt báo cáo đó ngay tại thời điểm nào mà không cần chờ thời gian báo cáo kết thúc mà những giảng viên bình thường không có.
+
+Trưởng khoa/ trưởng bộ môn 
+-Xem danh sách các đề tài.
+- Xem ds các giảng viên.
+-Hỗ trợ sắp xếp hội đồng cho báo cáo (ủy viên, chủ tịch, thời gian, phản biện, thời gian tối đa được báo cáo)
+- Hỗ trợ xem trùng lắp (vd cùng 1 thầy tham gia đánh giá 2 đề tài cùng thời điểm, khi đó sẽ báo lại cho trưởng khoa (bộ môn)
+
+
